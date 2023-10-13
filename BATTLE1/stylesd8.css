@@ -18,12 +18,11 @@
     margin-top:18px;
     border-bottom: 10px solid #a5a4a4;
 	border-left: 25px solid transparent;
-	border-right: 25px solid transparent;
+	border-right: 0px solid transparent;
 	height: 0;
-	width: 50px;
+	width: 75px;
     margin-bottom: 0px;
 }
-
 
 .second{
     background-color:  rgb(203, 202, 202);
@@ -56,10 +55,10 @@
 .trapezoid3 {
     margin-top:18px;
     border-bottom: 10px solid brown;
-	border-left: 25px solid transparent;
+	border-left: 0px solid transparent;
 	border-right: 25px solid transparent;
 	height: 0;
-	width: 50px;
+	width: 75px;
     margin-bottom: 0px;
 }
 
