@@ -16,6 +16,7 @@ body{
     margin: auto auto ;
     text-align: center;
     font-size: 2rem;
+    color: #F99417;
 }
 
 .container{
@@ -304,7 +305,9 @@ body{
 
 
 .main-container {
-    position: relative;
+    position: absolute;
+    top:250px;
+    left:200px;
     min-width: 550px;
     max-width: 100%;
   }
@@ -821,7 +824,8 @@ body{
 
 .track-outer {
     position: absolute;
-    left:800px;
+    top:350px;
+    left:600px;
 }
 
 .track {
@@ -1013,9 +1017,11 @@ body{
 
 
   .flagk {
-    position: relative;
-    width: 300px;
-    height: 200px;
+    position: absolute;
+    top:130px;
+    left:1020px;
+    width: 150px;
+    height: 100px;
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
     overflow: hidden;
   }
@@ -1032,7 +1038,7 @@ body{
     height: 100px;
     background: linear-gradient(#cd2e3a 50%, #0047a0 0);
     border-radius: 1in;
-    rotate: 34deg;
+    transform: rotate(34deg);
   }
   
   .south_korea__center_circle::before {
@@ -1053,6 +1059,11 @@ body{
     height: 45px;
     display: flex;
     justify-content: space-between;
+    transform: rotate(-34deg);
+  }
+  
+  .south_korea__strips_2 {
+    transform: rotate(34deg);
   }
   
   .strips {
@@ -1066,13 +1077,6 @@ body{
     height: 100%;
   }
   
-  .south_korea__strips_1 {
-    rotate: -34deg;
-  }
-  .south_korea__strips_2 {
-    rotate: 34deg;
-  }
-  
   .south_korea__invisible_brick {
     position: absolute;
     width: 10px;
@@ -1084,13 +1088,13 @@ body{
   .south_korea__invisible_brick:nth-of-type(1) {
     left: 71px;
     top: 142px;
-    rotate: -34deg;
+    transform: rotate(-34deg);
     box-shadow: 167px 0, 191px 0;
   }
   
   .south_korea__invisible_brick:nth-of-type(2) {
     right: 71px;
     top: 142px;
-    rotate: 34deg;
+    transform: rotate(34deg);
     box-shadow: -11px 0, 12px 0;
   }
